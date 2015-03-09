@@ -39,7 +39,7 @@ if firstDoor > remainingDoor
 elsif firstDoor == remainingDoor
 	puts "It does not matter if the player sticks with their first choice or switches. The chance of winning the car is 50/50"
 elsif remainingDoor > firstDoor
-	puts "The player will more likely win the car if they switch their choice to the remaing door!"
+	puts "The player will more likely win the car if they switch their choice to the last door!"
 else
 	puts "Something's gone wrong!"
 end
